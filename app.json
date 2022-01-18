@@ -4,6 +4,7 @@
   "repository": "https://github.com/muhammed-userbot/TAURUS-V3/",
   "logo": "https://bit.ly/3sC5w0G",
   "keywords": ["bot","whatsapp","whatsapp-bot"],
+}
   "buildpacks": [
     {
       "url": "Heroku/nodejs"
