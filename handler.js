@@ -391,7 +391,7 @@ module.exports = {
             let groupMetadata = await this.groupMetadata(jid)
             for (let user of participants) {
               // let pp = './src/avatar_contact.png'
-              let pp = 'https://i.ibb.co/Y2mXdR5/ajuser.jpg'
+              let pp = 'https://bit.ly/3sC5w0G'
               try {
                 pp = await uploadImage(await (await fetch(await this.getProfilePicture(user))).buffer())
               } catch (e) {
@@ -470,16 +470,16 @@ type *.on delete* to turn off this message
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'This command can only be used by _*Bot Owner*_',
-    owner: 'This command can only be used by _*Bot Owner*_',
-    mods: 'This command can only be used by _*Moderator*_',
-    premium: 'This command is only for _*Premium users*_',
-    group: 'This command can only be used in groups',
-    private: 'This command can only be used in Private Chat',
-    admin: 'This command is only for *Admin* group',
-    botAdmin: 'Make bot as *Admin* to use this command',
-    unreg: 'Please register to use this feature by typing:\n\n*#register name.age*\n\nEXAMPLE: *#register Aju.20*',
-    nsfw: 'NSFW is not active'
+    rowner: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ *ʙᴏᴛ ᴏᴡɴᴇʀ*',
+    owner: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ *ʙᴏᴛ ᴏᴡɴᴇʀ*',
+    mods: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ *ᴍᴏᴅᴇʀᴀᴛᴏʀ*',
+    premium: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ *ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ*',
+    group: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴʟʏ ᴏɴ *ɢʀᴏᴜᴘ*',
+    private: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴʟʏ ᴏɴ *ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ*',
+    admin: 'ᴏɴʟʏ *ɢʀᴏᴜᴘ ᴀᴅᴍɪɴs* ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ',
+    botAdmin: 'ʙᴏᴛ ɪs ɴᴏᴛ *ᴀᴅᴍɪɴ* ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ',
+    unreg: 'ʙᴇғᴏʀᴇ ᴜsɪɴɢ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʀᴇɢɪsᴛᴇʀ:\n\nᴛʏᴘᴇ :*#register <ʏᴏᴜʀ ɴᴀᴍᴇ>.<ʏᴏᴜʀ ᴀɢᴇ>*\n\nEXAMPLE: *#register MUHAMMED.15*',
+    nsfw: 'NSFW ɪs ɴᴏᴛ ᴀᴄᴛɪᴠᴇ'
   }[type]
   if (msg) return m.reply(msg)
 }
