@@ -31,14 +31,14 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Aju-Sticker'
-global.author = 'Aju'
+global.packname = 'TAURUS-BOT'
+global.author = 'MUHAMMED'
 
 global.wait = '_*Please Wait..*_'
 global.eror = '_*Server Error*_'
-global.fla = 'https://i.ibb.co/kQ98t1k/AJU.jpg'
+global.fla = 'https://bit.ly/3sC5w0G'
 
-global.watermark = '© AJU'
+global.watermark = '𝚃𝙰𝚄𝚁𝚄𝚂²⁰²²'
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
